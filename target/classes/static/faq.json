@@ -1,0 +1,57 @@
+[
+    {
+        "categoria": "Tarefas",
+        "pergunta": "Como faço para criar uma nova tarefa?",
+        "resposta": "Acesse a opção de criar tarefa, informe o título, a descrição e os demais dados solicitados. Depois, confirme para adicionar a atividade à sua lista de tarefas."
+    },
+    {
+        "categoria": "Tarefas",
+        "pergunta": "Onde posso visualizar minhas tarefas?",
+        "resposta": "Na tela principal você encontra sua lista de tarefas cadastradas, podendo consultar as atividades e acompanhar o que ainda precisa ser realizado."
+    },
+    {
+        "categoria": "Tarefas",
+        "pergunta": "Posso editar uma tarefa depois de criá-la?",
+        "resposta": "Sim! Caso precise alterar alguma informação, selecione a tarefa desejada e acesse a opção de edição para atualizar seus dados."
+    },
+    {
+        "categoria": "Tarefas",
+        "pergunta": "Como marco uma tarefa como concluída?",
+        "resposta": "Após finalizar uma atividade, utilize a opção de conclusão disponível na tarefa para atualizar seu status e diferenciá-la das atividades que ainda estão pendentes."
+    },
+    {
+        "categoria": "Tarefas",
+        "pergunta": "Posso excluir uma tarefa?",
+        "resposta": "Sim. Selecione a tarefa que deseja remover e utilize a opção de exclusão, caso ela não seja mais necessária."
+    },
+    {
+        "categoria": "Disciplinas",
+        "pergunta": "Como organizo minhas tarefas por disciplina?",
+        "resposta": "Ao cadastrar uma tarefa, associe-a à disciplina correspondente. Dessa forma, suas atividades ficam organizadas de acordo com cada matéria."
+    },
+    {
+        "categoria": "Disciplinas",
+        "pergunta": "Como filtro tarefas de uma disciplina específica?",
+        "resposta": "Utilize o filtro de disciplinas disponível na lista de tarefas e selecione a matéria desejada para visualizar somente as atividades relacionadas a ela."
+    },
+    {
+        "categoria": "Disciplinas",
+        "pergunta": "Posso visualizar tarefas de todas as disciplinas?",
+        "resposta": "Sim! Basta utilizar a opção de visualização geral ou remover o filtro aplicado para consultar todas as tarefas cadastradas."
+    },
+    {
+        "categoria": "Prioridades",
+        "pergunta": "Como funciona a prioridade das tarefas?",
+        "resposta": "A prioridade permite classificar suas atividades conforme o nível de importância, ajudando você a identificar quais tarefas merecem mais atenção."
+    },
+    {
+        "categoria": "Prioridades",
+        "pergunta": "Quais níveis de prioridade posso utilizar?",
+        "resposta": "As tarefas podem ser classificadas de acordo com os níveis de prioridade disponibilizados pelo sistema, permitindo diferenciar atividades mais ou menos urgentes."
+    },
+    {
+        "categoria": "Prioridades",
+        "pergunta": "Como encontro minhas tarefas mais importantes?",
+        "resposta": "Utilize o filtro de prioridade para visualizar as atividades classificadas com determinado nível de importância e organizar melhor sua rotina acadêmica."
+    }
+]

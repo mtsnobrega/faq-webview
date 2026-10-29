@@ -1,0 +1,22 @@
+:root{--bg:#EEF0EC;--card:#fff;--ink:#1E2A32;--mute:#5B6870;--line:#D5DAD6;--faixa:#F2B705;--sinal:#0F5C8C;--sinal-ink:#fff}
+@media(prefers-color-scheme:dark){:root:not([data-tema=claro]){--bg:#12181C;--card:#1B242A;--ink:#E8EDEA;--mute:#9AA7AE;--line:#2C3840;--sinal:#5BB1E3;--sinal-ink:#10181D}}
+:root[data-tema=escuro]{--bg:#12181C;--card:#1B242A;--ink:#E8EDEA;--mute:#9AA7AE;--line:#2C3840;--sinal:#5BB1E3;--sinal-ink:#10181D}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header{position:sticky;top:0;background:var(--bg);padding:16px 16px 8px;z-index:1}
+h1{margin:0 0 12px;font-size:1.5rem;letter-spacing:-.01em}
+input{width:100%;min-height:48px;padding:0 14px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink);font:inherit}
+#chips{display:flex;gap:8px;overflow-x:auto;padding:12px 0 4px}
+.chip{flex:none;min-height:40px;padding:0 16px;border:1px solid var(--line);border-radius:20px;background:var(--card);color:var(--ink);font:inherit;cursor:pointer}
+.chip[aria-pressed=true]{background:var(--sinal);border-color:var(--sinal);color:var(--sinal-ink)}
+main{padding:4px 16px 32px}
+#estado{color:var(--mute);margin:16px 0}
+#estado button{margin-left:8px;min-height:40px;padding:0 14px;border:1px solid var(--sinal);border-radius:8px;background:none;color:var(--sinal);font:inherit}
+details{background:var(--card);border-left:5px solid var(--line);border-radius:4px 10px 10px 4px;margin-bottom:8px}
+details[open]{border-left-color:var(--faixa)}
+summary{display:flex;justify-content:space-between;gap:12px;align-items:center;min-height:56px;padding:10px 14px;font-weight:600;cursor:pointer;list-style:none}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-size:1.4rem;color:var(--mute)}
+details[open] summary::after{content:"−"}
+details p{margin:0;padding:0 14px 16px;max-width:60ch;color:var(--mute)}
+:focus-visible{outline:3px solid var(--sinal);outline-offset:2px}
