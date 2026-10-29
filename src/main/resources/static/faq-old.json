@@ -1,0 +1,42 @@
+[
+   {
+      "categoria":"Reservas",
+      "pergunta":"Como faço uma reserva?",
+      "resposta":"Escolha uma vaga disponível, informe o período (por horas ou por temporada) e confirme. A reserva começa com o status PENDENTE."
+   },
+   {
+      "categoria":"Reservas",
+      "pergunta":"Posso cancelar uma reserva?",
+      "resposta":"Sim, desde que ela ainda esteja PENDENTE. Ao cancelar, você informa o motivo. Reservas já iniciadas não podem ser canceladas."
+   },
+   {
+      "categoria":"Reservas",
+      "pergunta":"Como funcionam o check-in e o check-out?",
+      "resposta":"O check-in registra a entrada do veículo na vaga reservada e o check-out registra a saída. Ambos são feitos pelo administrador do estacionamento."
+   },
+   {
+      "categoria":"Reservas",
+      "pergunta":"Onde acompanho minhas reservas?",
+      "resposta":"Na área \"Minhas reservas\" você vê o status de cada reserva e pode cancelar as que ainda estão pendentes."
+   },
+   {
+      "categoria":"Vagas",
+      "pergunta":"O que significa vaga ocupada?",
+      "resposta":"Uma vaga ocupada já está em uso e não aceita novas reservas até ser liberada."
+   },
+   {
+      "categoria":"Vagas",
+      "pergunta":"Como sei quantas vagas estão disponíveis?",
+      "resposta":"A tela inicial mostra o total de vagas disponíveis e ocupadas em tempo real."
+   },
+   {
+      "categoria":"Vagas",
+      "pergunta":"Como o preço é calculado?",
+      "resposta":"Cada vaga tem um preço por hora. O valor da reserva é esse preço multiplicado pelo tempo reservado."
+   },
+   {
+      "categoria":"Ajuda",
+      "pergunta":"Não encontrei minha dúvida. O que faço?",
+      "resposta":"Fale com a equipe pelo canal de suporte indicado no aplicativo, informando o número da sua reserva."
+   }
+]
